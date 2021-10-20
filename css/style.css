@@ -1,0 +1,474 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.logo img{
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50px;
+
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0%;
+    cursor: pointer;
+
+}
+.nav-list{
+    width: 60%;
+   
+    display: flex;
+    align-items: center;
+
+
+}
+.nav-list li{
+    list-style: none;
+    padding: 26px 26px;
+
+}
+.nav-list li a{
+    text-decoration: none;
+    color: yellowgreen;
+
+}
+.nav-list li a:hover{
+    color: red;
+
+}
+.rightNav{
+    
+    
+    width: 50%;
+    text-align: right;
+    
+
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+.background{
+    background: rgba(0, 0,0, 0.7) url('../background.jpg');
+    background-size: cover;
+    background-blend-mode: darken ;
+}
+.firstSection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 60%;
+
+}
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.secondHalf{
+width: 30%;
+box-shadow: 1px 2px 15px 5px white;
+
+}
+.secondHalf img{
+    width: 150%;
+    border: black;
+    display: block;
+    margin: auto;
+    }
+    .bs{
+        padding: 6px;
+    font-size: 17px;
+    border: 2px solid blueviolet;
+    border-radius: 9px;
+    column-fill: balance;
+    color: white;
+    background:none;
+    cursor: pointer;
+    }
+    .btn{
+        padding: 8px 20px;
+        margin: 7px;
+        border: 2px solid white;
+        background: none;
+        color: white;
+        cursor: pointer;
+
+    }
+
+    .text-big{
+        font-size: 41px;
+        font-style: italic;
+
+    }
+    .text-small{
+        font-size: 18px;
+
+    }
+   
+.section2 {
+    width: 100%;
+    height: 100vh;
+    background: url('../background2.jpg');
+    background-size: cover;
+}
+.content{
+   font-family:cursive;
+   color: #fff;
+   background: rgba(0, 0,0, 0.5);
+   padding: 40px;
+   box-sizing: border-box;
+} 
+.leftbox{
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+}   
+.content:hover
+{
+    background:darkgoldenrod;
+
+}
+.content h1
+{
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    text-transform: uppercase;
+
+}
+.content p{
+    margin: 10px 0 0;
+    padding: 0;
+}
+.events
+{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background:rgba(0, 0,0, 0.5);
+    float: right;
+    box-sizing: border-box;
+}
+.events ul{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    padding: 40px;
+    box-sizing: border-box;
+}
+   
+.events ul li
+{
+    list-style: none;
+    background: #fff;
+    box-sizing: border-box;
+    height: 200px;
+    margin: 15px 0;
+}
+
+.events ul li .time
+{
+    position: relative;
+    padding: 20px;
+    background: #262626;
+    box-sizing: border-box;
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    transition: 2s;
+
+}
+.events ul li:hover .time
+{
+    background: darkgoldenrod;
+}
+.events ul li .time h2{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 60px;
+    line-height: 30px;
+
+}
+.events ul li .time h2 span
+{
+    font-size: 30px;
+
+}
+.details
+{
+    padding: 20px;
+    background: #fff;
+    box-sizing: border-box;
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+.details h3
+{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+
+}
+.details p
+{
+    position: relative;
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 16px;
+    
+}
+.details a{
+    display:inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border: 2px solid #262626;
+    margin-top: 15px;
+    font-size: 18px;
+    transition: 2s;
+    
+
+}
+.details a:hover
+{
+    background:red;
+    color: #fff;
+    border-color: black;
+}
+.bs:hover
+{
+    background: #262626;
+    color: darkgoldenrod;
+    border-color:black ;
+}
+.social-media
+{
+    color: black;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+.footer {
+    position: relative;
+    width: 93.50%;
+    background: #3586ff;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .social-icon,
+  .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+  }
+  
+  .social-icon__item,
+  .menu__item {
+    list-style: none;
+  }
+  
+  .social-icon__link {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+  }
+  .social-icon__link:hover {
+    transform: translateY(-10px);
+  }
+  
+  .menu__link {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+    font-weight: 300;
+  }
+  
+  .menu__link:hover {
+    opacity: 1;
+  }
+  
+  .footer p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  
+  .wave {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url("https://i.ibb.co/wQZVxxk/wave.png");
+    background-size: 1000px 100px;
+  }
+  
+  .wave#wave1 {
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWaves 4s linear infinite;
+  }
+  
+  .wave#wave2 {
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animate 4s linear infinite !important;
+  }
+  
+  .wave#wave3 {
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWaves 3s linear infinite;
+  }
+  
+  .wave#wave4 {
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animate 3s linear infinite;
+  }
+  
+  @keyframes animateWaves {
+    0% {
+      background-position-x: 1000px;
+    }
+    100% {
+      background-positon-x: 0px;
+    }
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position-x: -1000px;
+    }
+    100% {
+      background-positon-x: 0px;
+    }
+  }
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica", sans-serif;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  .slider-container{
+    
+    height: 38%;
+    width: 59%;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    border: ridge;
+    cursor: pointer;
+  }
+  
+  .menu {
+    position: absolute;
+    left: 0;
+    z-index: 900;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  .menu label {
+    cursor: pointer;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border-radius: 50px;
+    margin: 0 .2em 1em;
+    
+  }
+  .menu label:hover{
+      background-color: red;
+  }
+  
+  .slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    padding: 8em 1em 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    transition: left 0s .75s;
+  }
+  
+  [id^="slide"]:checked + .slide {
+    left: 0;
+    z-index: 100;
+    transition: left .65s ease-out;
+  }
+  
+  .slide-1 {
+    background-image: url("https://source.unsplash.com/t7YycgAoVSw/1600x900");
+  }
+  .slide-2 {
+    background-image: url("https://source.unsplash.com/11H1SSVcIxc/1600x900");
+  }
+  .slide-3 {
+    background-image: url("https://source.unsplash.com/OlZ1nWLEEgM/1600x900");
+  }  
+  
